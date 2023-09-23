@@ -1,0 +1,11 @@
+FUNCTION plindrome(s:STRING) : BOOLEAN
+BEGIN
+    if s.length < 2 ;
+    RETURN true ;
+    s.length-1:=n
+    if s[0] = s[n];
+    s=substring (s,1,n);
+        RETURN plindrome(s);
+    ELSE 
+        RETURN FLASE;
+    END
